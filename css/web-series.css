@@ -1,0 +1,206 @@
+body{
+    margin: 0%;
+    background-color: #070d0e;
+    }
+    
+    
+    .nav-bar{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: rgb(26 34 36);
+    }
+    
+    .navbar-logo{
+        margin-left: 60px;
+        margin-top: 22px;
+    }
+    
+    .nav-menu{
+        margin-left: 150px;
+        margin-top: 20px;
+    }
+    
+    .content{
+        color: #fff;
+        font-size: 22px;
+        font-weight: bold;
+        margin-right:50px ;
+    
+    }
+    
+    .menu-container{
+        margin-right: 350px;
+    }
+    
+    content:hover{
+        color: rgb(198 22 100);
+        
+    }
+    .banner{
+        color: white;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 320px;
+    }
+    
+    .heading{
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+     
+    .web-effect{
+        cursor: pointer;
+        color: rgb(198 22 100);
+    }
+    
+    
+    .row{
+        color: #fff;
+        margin-left: 30px;
+    }
+    .row-poster{
+        height: 150px;
+        margin-right: 10px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    
+    .row-posters{
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: scroll;
+        padding: 10px;
+    }
+    .row-posters::-webkit-scrollbar{
+        display: none;
+    }
+    .row-poster:hover{
+        transform: scale(1.10);
+    }
+    
+    .row-poster-large:hover{
+        transform: scale(1.12);
+    }
+   
+    .footer{
+        margin-top: 30px;
+        background-color: #0f1516;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .footer-row{
+        margin-top: 30px;
+        margin-left:40px;
+    }
+    
+    .dailogoue{
+        margin-top: 5px;
+    }
+    .cards{
+        height: 50px;
+    }
+    
+    .qrcode{
+        height: 100px;
+    }
+    
+    .footer-name{
+        color: #fff;
+        font-size: 30px;
+        margin-top: 0%;
+    }
+    
+    .icon-font{
+        margin: 5px;
+        font-size: 22px;
+    }
+    
+    .icon-font:hover{
+        font-size: 27px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+    
+    @media screen and (max-width: 600px) {
+
+   
+    
+        .navbar-logo{
+            margin-left:100px;
+            margin-top: 2px;
+        }
+        
+        .nav-menu{
+            margin-left: 10px;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+        
+        .content{
+            font-size: 18px;
+            margin-right:23px ;
+           
+        }
+    
+       
+        .banner{
+            color: white;
+            background-size:cover;
+            background-position: left;
+            background-repeat: no-repeat;
+            height:140px;
+           
+        }
+    
+        .row{
+            color: #fff;
+            margin-left: 20px;
+        }
+        .row-poster{
+            height: 100px;
+            margin-right: 5px;
+         
+        }
+        
+      
+    
+        .footer{
+            height: 350px;
+        }
+    
+        .footer-logo{
+            height:30px ;
+            margin-left: 70px;
+        }
+       
+        .dailogoue{
+            height: 15px;
+            margin-top: 0%;
+            margin-left: 20px;
+        }
+    
+        .cards{
+            display: flex;
+            height: 40px;
+            margin-left: 10px;
+        }
+        
+        .qrcode{
+            height: 70px;
+           
+        }
+    
+        .footer-name{
+            font-size: 20px;
+            margin-left: 30px;
+        }
+    
+       
+    
+    }
+    
